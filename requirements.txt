@@ -1,0 +1,7 @@
+vllm
+fastapi
+uvicorn
+pydantic
+torch
+transformers
+setuptools

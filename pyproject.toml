@@ -1,0 +1,15 @@
+[project]
+name = "model-server"
+version = "0.1.0"
+description = "batch and real-time server with open-source LLM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.6",
+    "pydantic>=2.10.4",
+    "setuptools>=75.6.0",
+    "torch>=2.5.1",
+    "transformers>=4.47.1",
+    "uvicorn>=0.34.0",
+    "vllm>=0.6.5",
+]
